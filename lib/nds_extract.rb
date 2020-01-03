@@ -71,10 +71,7 @@ def gross_per_studio(collection)
       result << movie_with_director_name(name, movie_data)
       i += 1
     end
-
     result
-
-
 end
 
 def movies_with_directors_set(source)
